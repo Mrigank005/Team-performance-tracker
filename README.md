@@ -394,8 +394,7 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 **Made with ❤️ By Mrigank Singh**
 
-[Report Bug](https://github.com/Mrigank005/upesacm-performance-tracker/issues) · 
-[Request Feature](https://github.com/Mrigank005/upesacm-performance-tracker/issues) · 
-[Documentation](./SUPABASE_SETUP_GUIDE.md)
+[Report Bug](https://github.com/Mrigank005/Team-performance-tracker/issues) · 
+[Request Feature](https://github.com/Mrigank005/Team-performance-tracker/issues) · 
 
 </div>
