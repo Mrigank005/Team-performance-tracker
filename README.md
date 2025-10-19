@@ -1,4 +1,4 @@
-﻿#  UPES ACM Performance Tracker
+﻿#  Team Performance Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -6,7 +6,7 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Enabled-3ECF8E.svg)](https://supabase.com)
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black.svg)](https://vercel.com)
 
-A modern, full-featured performance tracking and management system designed for UPES ACM and ACM-W committee heads to monitor and evaluate core team member performance across events and tasks.
+A modern, full-featured performance tracking and management system designed to monitor and evaluate team member performance across events and tasks.
 
 > **Built with:** React, TypeScript, Supabase, Tailwind CSS, shadcn/ui
 
@@ -343,29 +343,15 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🙏 Acknowledgments
-
-### Built For
-- **UPES ACM Student Chapter** - Association for Computing Machinery
-- **UPES ACM-W** - ACM Women's Chapter
-- Event committee heads and core team members
-
-### Technologies
-- [React](https://reactjs.org/) - UI Library
-- [Supabase](https://supabase.com) - Backend Platform
-- [shadcn/ui](https://ui.shadcn.com/) - Component Library
-- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
-- [Vercel](https://vercel.com) - Deployment Platform
-
-### Inspiration
-Created to streamline performance tracking and provide data-driven insights for student organization management.
+## 🙏 Inspiration
+Created to streamline performance tracking and provide data-driven insights for organization management.
 
 ---
 
 ## 📞 Support
 
 ### Issues & Bugs
-- Open an issue on [GitHub Issues](https://github.com/Mrigank005/upesacm-performance-tracker/issues)
+- Open an issue on [GitHub Issues](https://github.com/Mrigank005/Team-performance-tracker/issues)
 - Check existing issues before creating a new one
 
 ### Questions
@@ -406,7 +392,7 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 <div align="center">
 
-**Made with ❤️ for UPES ACM Community**
+**Made with ❤️ By Mrigank Singh**
 
 [Report Bug](https://github.com/Mrigank005/upesacm-performance-tracker/issues) · 
 [Request Feature](https://github.com/Mrigank005/upesacm-performance-tracker/issues) · 
