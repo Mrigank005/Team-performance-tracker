@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Pastel Color Palette - HSL values */
+    --background: 30 25% 96%; /* Soft cream */
+    --foreground: 240 10% 20%; /* Dark slate */
+
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 240 10% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 20%;
+
+    /* Soft Lavender - Primary */
+    --primary: 260 60% 75%;
+    --primary-foreground: 260 60% 20%;
+    --primary-light: 260 60% 85%;
+    --primary-dark: 260 60% 65%;
+
+    /* Mint Green - Secondary */
+    --secondary: 150 40% 75%;
+    --secondary-foreground: 150 40% 25%;
+    --secondary-light: 150 40% 85%;
+
+    /* Peach - Accent */
+    --accent: 20 80% 80%;
+    --accent-foreground: 20 80% 30%;
+    --accent-light: 20 80% 90%;
+
+    /* Sky Blue */
+    --info: 200 60% 75%;
+    --info-foreground: 200 60% 25%;
+
+    /* Soft Yellow */
+    --warning: 45 90% 75%;
+    --warning-foreground: 45 90% 30%;
+
+    /* Muted */
+    --muted: 240 5% 90%;
+    --muted-foreground: 240 5% 45%;
+
+    /* Borders */
+    --border: 260 30% 88%;
+    --input: 260 30% 85%;
+    --ring: 260 60% 75%;
+
+    /* Destructive */
+    --destructive: 0 70% 75%;
+    --destructive-foreground: 0 70% 25%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 10% 10%;
+    --foreground: 240 5% 90%;
+
+    --card: 240 10% 12%;
+    --card-foreground: 240 5% 90%;
+
+    --popover: 240 10% 12%;
+    --popover-foreground: 240 5% 90%;
+
+    --primary: 260 60% 65%;
+    --primary-foreground: 260 60% 95%;
+    --primary-light: 260 60% 75%;
+    --primary-dark: 260 60% 55%;
+
+    --secondary: 150 40% 55%;
+    --secondary-foreground: 150 40% 95%;
+    --secondary-light: 150 40% 65%;
+
+    --accent: 20 80% 65%;
+    --accent-foreground: 20 80% 95%;
+    --accent-light: 20 80% 75%;
+
+    --info: 200 60% 60%;
+    --info-foreground: 200 60% 95%;
+
+    --warning: 45 90% 60%;
+    --warning-foreground: 45 90% 95%;
+
+    --muted: 240 5% 20%;
+    --muted-foreground: 240 5% 65%;
+
+    --border: 240 10% 20%;
+    --input: 240 10% 18%;
+    --ring: 260 60% 65%;
+
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 70% 95%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-sm border border-primary/20;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
+  }
+
+  .gradient-secondary {
+    background: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-light)));
+  }
+
+  .gradient-accent {
+    background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-light)));
+  }
+}
